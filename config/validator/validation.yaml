@@ -1,0 +1,11 @@
+# config/validator/validation.yaml
+App\Entity\Person:
+  properties:
+    name:
+      - NotBlank: ~
+    surname:
+      - NotBlank: ~
+    number:
+    mail:
+      - NotBlank: ~
+    note:
